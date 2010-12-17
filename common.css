@@ -1,0 +1,76 @@
+/*
+*** ADMIN ***
+*/
+
+#editor {
+  background: rgba(0,0,0,0.8);
+  color: #fff;
+  width: 400px;
+  height: 300px;
+  position: absolute;
+  top: 50px;
+  right: 20px;
+  z-index: 10;
+}
+
+/* begin css tabs */
+ 
+ul#menu { /* general settings */
+  text-align: left; /* set to left, right or center */
+  margin: 0; /* set margins as desired */
+  padding: 0;
+  font: bold 11px verdana, arial, sans-serif; /* set font as desired */
+  list-style-type: none;
+  padding: 6px 10px 3px 0px; /* THIRD number must change with respect to padding-top (X) below */
+}
+ 
+ul#menu li { /* do not change */
+  display: inline;
+}
+ 
+#menu li.ui-tabs-selected a { /* settings for selected tab link */
+  background-color: transparent; /* set selected tab background color as desired */
+  color: #fff; /* set selected tab link color as desired */
+  position: relative;
+  padding-top: 6px; /* must change with respect to padding (X) above and below */
+}
+ 
+#menu li a { /* settings for all tab links */
+  padding: 6px 10px; /* set padding (tab size) as desired; FIRST number must change with respect to padding-top (X) above */
+  background-color: rgba(255,255,255,0.15); /* set unselected tab background color as desired */
+  color: #ddd; /* set unselected tab link color as desired */
+  margin-right: 0px; /* set additional spacing between tabs as desired */
+  text-decoration: none;
+  border-bottom: none;
+}
+ 
+ul#tabnav a:hover { /* settings for hover effect */
+background: #fff; /* set desired hover color */
+}
+ 
+/* end css tabs */
+
+.ui-tabs-hide { display: none; }
+.tab {
+  padding: 0 10px;
+}
+
+/*
+*** PAGE ***
+*/
+
+body.aboutme {
+  margin: 0;
+  padding: 0;
+}
+
+#card {
+  width: auto;
+  float: left;
+  padding: 1em;
+}
+
+#name {
+  margin: 0;
+  padding: 0;
+}
